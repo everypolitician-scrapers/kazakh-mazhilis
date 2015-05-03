@@ -13,8 +13,8 @@ START = BASE + '/en/mazhilis/People/DeputyList/A'
 @parties = {
   '0' => "Independent",
   '1' => "Nur Otan",
-  '14' => "Communist People's Party",
-  '17' => "Ak Zhol",
+  '2' => "Ak Zhol",
+  '3' => "Communist People's Party",
 }
 
 noko(START).css('.alphabets li a').each do |letter|
