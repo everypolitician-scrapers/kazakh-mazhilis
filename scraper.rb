@@ -31,6 +31,7 @@ noko(START).css('.alphabets li a').each do |letter|
       img: BASE + person.at_css('img/@src').value,
       website: person_url,
       source: letter_url,
+      term: 5,
     }
     ScraperWiki.save_sqlite([:id], data)
   end
